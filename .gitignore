@@ -1,0 +1,104 @@
+## Build output
+bin/
+obj/
+out/
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docview
+*.sln.ide/
+
+## NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/
+!**/[Pp]ackages/build/
+*.lock.json
+!packages.lock.json
+
+## Azure Functions local settings (contains secrets)
+local.settings.json
+
+## Publish profiles
+*.pubxml
+*.pubxml.user
+
+## ReSharper
+.idea/
+_ReSharper*/
+*.DotSettings.user
+
+## Rider
+.idea/
+
+## Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+## Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+## Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+## pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+*.coveragerc
+
+## mypy / pyright
+.mypy_cache/
+.pyright/
+
+## Jupyter
+.ipynb_checkpoints/
+
+
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+secrets/
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+## VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+
+## JetBrains
+*.iml
+*.ipr
+*.iws
+
+## Vim / Emacs
+*.swp
+*.swo
+*~
+\#*\#
+
+
+*.log
+*.tmp
+*.temp
+logs/
