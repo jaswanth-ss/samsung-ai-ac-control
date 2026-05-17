@@ -56,7 +56,7 @@ async def recommend_temperature(data: RecommendTemperature):
         )
 
         return {
-            "recommended_temperature": int(recommended_temperature)
+            "recommended_temperature": recommended_temperature
         }
 
     except Exception as e:
